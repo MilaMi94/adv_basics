@@ -5,6 +5,7 @@ class QuizQuestion {
   final List<String> answers;
 
   List<String> getShuffledAnswers() {
+    // this can be getter method
     final shuffledList = List.of(answers);
     shuffledList.shuffle();
     return shuffledList;
